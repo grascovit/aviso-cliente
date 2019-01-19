@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: aviso-cliente-development
+
+test:
+  <<: *default
+  database: aviso-cliente-test
+
+production:
+  <<: *default
+  database: aviso-cliente-production
+  username: aviso-cliente
+  password: <%= ENV['AVISO-CLIENTE_DATABASE_PASSWORD'] %>
