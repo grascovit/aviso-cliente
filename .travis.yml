@@ -2,6 +2,8 @@ language: ruby
 cache:
   bundler: true
   yarn: true
+before_install:
+  - gem update bundler
 before_script:
   - yarn
   - bundle exec rake db:setup
