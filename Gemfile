@@ -34,7 +34,7 @@ end
 
 group :test do
   gem 'faker', '~> 1.9.1'
-  gem 'shoulda-matchers', '~> 3.1.2'
+  gem 'shoulda-matchers', '~> 3.1.3'
   gem 'simplecov', '~> 0.16.1', require: false
 end
 
