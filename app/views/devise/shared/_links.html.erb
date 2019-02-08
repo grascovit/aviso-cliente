@@ -2,7 +2,7 @@
   <%= link_to t('.login'), new_session_path(resource_name), class: 'btn btn-sm btn-block btn-link' %>
 <% end -%>
 
-<%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+<%- if ENV['ENABLE_REGISTRATION'] == 'true' && devise_mapping.registerable? && controller_name != 'registrations' %>
   <%= link_to t('.sign_up'), new_registration_path(resource_name), class: 'btn btn-sm btn-block btn-link' %>
 <% end -%>
 
