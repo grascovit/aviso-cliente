@@ -1,7 +1,8 @@
 AWS_BUCKET:
 AWS_REGION:
-DEFAULT_URL: avisocliente.herokuapp.com
-EMAIL_SENDER: contato@avisocliente.com
+DEFAULT_URL: 'avisocliente.herokuapp.com'
+EMAIL_SENDER: 'contato@avisocliente.com'
+ENABLE_REGISTRATION: 'false'
 MAILGUN_USERNAME:
 MAILGUN_PASSWORD:
 MAILGUN_DOMAIN:
