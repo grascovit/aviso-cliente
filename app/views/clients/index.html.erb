@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-12 mx-auto">
+    <h4 class="my-4 text-center">
+      <%= t('.header') %>
+    </h4>
+    <%= link_to new_client_path, class: 'float-right btn btn-sm btn-primary my-2' do %>
+      <%= t('.new_client') %>
+      <i class="fas fa-plus"></i>
+    <% end %>
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+        <tr>
+          <th><%= t('.first_name') %></th>
+          <th><%= t('.last_name') %></th>
+          <th><%= t('.email') %></th>
+          <th><%= t('.mobile_phone') %></th>
+          <th><%= t('.actions') %></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @clients.each do |client| %>
+          <tr>
+            <td><%= client.first_name %></td>
+            <td><%= client.last_name %></td>
+            <td><%= client.email %></td>
+            <td><%= client.mobile_phone %></td>
+            <td class="actions">
+              <%= link_to edit_client_path(client), class: 'btn btn-sm btn-warning' do %>
+                <i class="fas fa-pencil-alt fa-inverse"></i>
+              <% end %>
+              <%= link_to client, method: :delete, data: { confirm: t('.confirmation_message') }, class: 'btn btn-sm btn-danger' do %>
+                <i class="fas fa-trash"></i>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

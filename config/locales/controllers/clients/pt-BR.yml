@@ -1,0 +1,8 @@
+pt-BR:
+  clients:
+    create:
+      success: "Cliente criado com sucesso"
+    update:
+      success: "Cliente atualizado com sucesso"
+    destroy:
+      success: "Cliente excluído com sucesso"

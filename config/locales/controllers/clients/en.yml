@@ -1,0 +1,8 @@
+en:
+  clients:
+    create:
+      success: "Client was successfully created"
+    update:
+      success: "Client was successfully updated"
+    destroy:
+      success: "Client was successfully destroyed"

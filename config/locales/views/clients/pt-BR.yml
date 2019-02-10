@@ -1,0 +1,19 @@
+pt-BR:
+  clients:
+    edit:
+      header: "Atualizar cliente"
+      back: "Voltar aos clientes"
+    new:
+      header: "Novo cliente"
+      back: "Voltar aos clientes"
+    form:
+      submit: "Salvar"
+    index:
+      header: "Clientes"
+      new_client: "Novo cliente"
+      first_name: "Nome"
+      last_name: "Sobrenome"
+      email: "Email"
+      mobile_phone: "Celular"
+      actions: "Ações"
+      confirmation_message: "Você tem certeza?"

@@ -1,0 +1,31 @@
+<%= form_for(client) do |f| %>
+  <%= render 'shared/error_messages', object: client %>
+  <div class="form-group">
+    <%= f.text_field :first_name,
+                     autofocus: true,
+                     autocomplete: 'on',
+                     placeholder: t('activerecord.attributes.client.first_name'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.text_field :last_name,
+                     autocomplete: 'on',
+                     placeholder: t('activerecord.attributes.client.last_name'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.email_field :email,
+                      autocomplete: 'on',
+                      placeholder: t('activerecord.attributes.client.email'),
+                      class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.text_field :mobile_phone,
+                     autocomplete: 'on',
+                     placeholder: t('activerecord.attributes.client.mobile_phone'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.submit t('.submit'), class: 'btn btn-primary btn-block' %>
+  </div>
+<% end %>

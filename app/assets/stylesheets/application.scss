@@ -1,7 +1,10 @@
 @import "bootstrap";
+@import "bootstrap-override";
 @import "flash-messages";
+@import "font-awesome-sprockets";
 @import "font-awesome";
 @import "forms";
+@import "tables";
 
 body {
   padding: 60px 0 30px 0;
