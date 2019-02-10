@@ -3,12 +3,6 @@
 class RegistrationsController < Devise::RegistrationsController
   before_action :disable_registration, only: %i[new create]
 
-  protected
-
-  def sign_up_params
-    super.merge(role: :lawyer)
-  end
-
   private
 
   def disable_registration

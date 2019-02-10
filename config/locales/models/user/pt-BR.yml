@@ -9,7 +9,6 @@ pt-BR:
         first_name: "Nome"
         last_name: "Sobrenome"
         mobile_phone: "Celular"
-        role: "Função"
         email: "Email"
         password: "Senha"
         password_confirmation: "Confirmação de senha"

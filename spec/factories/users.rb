@@ -7,13 +7,5 @@ FactoryBot.define do
     email { Faker::Internet.email }
     password { Faker::Internet.password }
     mobile_phone { Faker::PhoneNumber.cell_phone }
-
-    factory :lawyer do
-      role { :lawyer }
-    end
-
-    factory :client do
-      role { :client }
-    end
   end
 end
