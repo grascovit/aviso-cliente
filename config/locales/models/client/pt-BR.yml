@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    models:
+      client:
+        one: "Cliente"
+        other: "Clientes"
+    attributes:
+      client:
+        first_name: "Nome"
+        last_name: "Sobrenome"
+        email: "Email"
+        mobile_phone: "Celular"

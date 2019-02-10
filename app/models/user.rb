@@ -5,5 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable,
          :trackable, :confirmable
 
+  has_many :clients, dependent: :destroy
+
   validates :first_name, :mobile_phone, presence: true
 end
