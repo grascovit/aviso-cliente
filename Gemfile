@@ -7,7 +7,7 @@ ruby '2.6.1'
 
 gem 'bootsnap', '~> 1.3.2', require: false
 gem 'bootstrap', '~> 4.2.1'
-gem 'devise', '~> 4.5.0'
+gem 'devise', '~> 4.7.1'
 gem 'figaro', '~> 1.1.1'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'jquery-rails', '~> 4.3.3'
