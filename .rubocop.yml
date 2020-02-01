@@ -4,23 +4,28 @@ Rails:
   Enabled: true
 
 AllCops:
-  TargetRubyVersion: 2.5.3
+  TargetRubyVersion: 2.6.3
   Exclude:
     - db/**/*
     - bin/**/*
+    - vendor/**/*
 
 Style/Documentation:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 RSpec/ExampleLength:
   Max: 10
 
+RSpec/NestedGroups:
+  Max: 4
+
 Metrics/BlockLength:
   Exclude:
     - spec/**/*
+    - config/**/*
 
 Metrics/ModuleLength:
   Exclude:
