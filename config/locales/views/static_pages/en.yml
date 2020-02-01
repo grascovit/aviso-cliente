@@ -1,0 +1,6 @@
+en:
+  static_pages:
+    home:
+      header: "Aviso Cliente"
+      description: "Manage your clients easily and assure that they receive notifications automatically"
+      call_to_action: "Register a client"

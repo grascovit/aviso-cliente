@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-12 mx-auto">
+    <div class="jumbotron mt-4 text-center">
+      <h1 class="display-5"><%= t('.header') %></h1>
+      <p class="lead"><%= t('.description') %></p>
+      <%= link_to new_client_path, class: 'btn btn-primary mt-2' do %>
+        <%= t('.call_to_action') %>
+      <% end %>
+    </div>
+  </div>
+</div>

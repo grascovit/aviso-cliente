@@ -1,0 +1,6 @@
+pt-BR:
+  static_pages:
+    home:
+      header: "Aviso Cliente"
+      description: "Gerencie de forma fácil seus clientes e garanta que eles recebam notificações importantes automaticamente"
+      call_to_action: "Cadastrar um cliente"
