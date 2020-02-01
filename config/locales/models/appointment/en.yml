@@ -1,0 +1,22 @@
+en:
+  activerecord:
+    models:
+      appointment:
+        one: "Appointment"
+        other: "Appointments"
+    attributes:
+      appointment:
+        description: "Description"
+        start_at: "Start at"
+        end_at: "End at"
+        address: "Address"
+        latitude: "Latitude"
+        longitude: "Longitude"
+        user: "User"
+        client: "Client"
+    errors:
+      models:
+        appointment:
+          attributes:
+            base:
+              latitude_or_longitude_blank: "Select a suggested place or address"

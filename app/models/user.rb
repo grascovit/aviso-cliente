@@ -6,6 +6,7 @@ class User < ApplicationRecord
          :trackable, :confirmable
 
   has_many :clients, dependent: :destroy
+  has_many :appointments, dependent: :destroy
 
   validates :first_name, :mobile_phone, presence: true
 end

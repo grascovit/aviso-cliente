@@ -1,0 +1,22 @@
+pt-BR:
+  activerecord:
+    models:
+      appointment:
+        one: "Compromisso"
+        other: "Compromissos"
+    attributes:
+      appointment:
+        description: "Descrição"
+        start_at: "Data e hora de início"
+        end_at: "Data e hora de término"
+        address: "Endereço"
+        latitude: "Latitude"
+        longitude: "Longitude"
+        user: "Usuário"
+        client: "Cliente"
+    errors:
+      models:
+        appointment:
+          attributes:
+            base:
+              latitude_or_longitude_blank: "Selecione um local ou endereço sugerido"
