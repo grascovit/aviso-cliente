@@ -70,7 +70,7 @@ RSpec.describe 'Registrations', type: :request do
         ENV['ENABLE_REGISTRATION'] = 'true'
       end
 
-      context 'and user informs valid params' do
+      context 'when user informs valid params' do
         it 'creates a new user' do
           expect do
             post user_registration_path, params: valid_params
@@ -84,7 +84,7 @@ RSpec.describe 'Registrations', type: :request do
         end
       end
 
-      context 'and user informs invalid params' do
+      context 'when user informs invalid params' do
         it 'does not create a new user' do
           expect do
             post user_registration_path, params: invalid_params
