@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/grascovit/aviso-cliente.svg?branch=master)](https://travis-ci.org/grascovit/aviso-cliente)
+[![Maintainability](https://api.codeclimate.com/v1/badges/deee625995a253ec6d39/maintainability)](https://codeclimate.com/github/grascovit/aviso-cliente/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/deee625995a253ec6d39/test_coverage)](https://codeclimate.com/github/grascovit/aviso-cliente/test_coverage)
 
 # Aviso Cliente
 
