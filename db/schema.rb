@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(version: 2020_02_01_143201) do
     t.datetime "start_at", null: false
     t.datetime "end_at"
     t.string "address", default: "", null: false
-    t.decimal "latitude", default: "0.0", null: false
-    t.decimal "longitude", default: "0.0", null: false
+    t.string "latitude", default: "", null: false
+    t.string "longitude", default: "", null: false
     t.bigint "user_id"
     t.bigint "client_id"
     t.datetime "created_at", null: false

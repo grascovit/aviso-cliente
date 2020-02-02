@@ -20,6 +20,7 @@ gem 'uglifier', '~> 4.2.0'
 group :development, :test do
   gem 'byebug', '~> 11.1.1', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '~> 5.1.1'
+  gem 'pry', '~> 0.12.2'
   gem 'rspec-rails', '~> 3.9.0'
   gem 'rubocop', '~> 0.79.0', require: false
   gem 'rubocop-rspec', '~> 1.37.1'
