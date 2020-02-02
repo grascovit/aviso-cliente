@@ -1,0 +1,8 @@
+en:
+  appointments:
+    create:
+      success: "Appointment was successfully created"
+    update:
+      success: "Appointment was successfully updated"
+    destroy:
+      success: "Appointment was successfully destroyed"

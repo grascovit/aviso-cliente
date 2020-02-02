@@ -18,7 +18,7 @@ class ClientsController < ApplicationController
     @client = current_user.clients.new(client_params)
 
     if @client.save
-      redirect_to clients_path
+      redirect_to clients_path, notice: t('.success')
     else
       render :new
     end

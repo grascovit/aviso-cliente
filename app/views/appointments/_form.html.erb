@@ -1,0 +1,40 @@
+<%= form_for(appointment) do |f| %>
+  <%= render 'shared/error_messages', object: appointment %>
+  <div class="form-group">
+    <%= f.collection_select :client_id,
+                            current_user.clients,
+                            :id,
+                            :first_name,
+                            { include_blank: t('.select_client') },
+                            { class: 'custom-select' } %>
+  </div>
+  <div class="form-group">
+    <%= f.text_area :description,
+                    autofocus: true,
+                    autocomplete: 'off',
+                    placeholder: t('activerecord.attributes.appointment.description'),
+                    class: 'form-control',
+                    rows: 4 %>
+  </div>
+  <div class="form-group">
+    <%= f.text_field :start_at,
+                     autocomplete: 'off',
+                     placeholder: t('activerecord.attributes.appointment.start_at'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.text_field :end_at,
+                     autocomplete: 'off',
+                     placeholder: t('activerecord.attributes.appointment.end_at'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.text_field :address,
+                     autocomplete: 'off',
+                     placeholder: t('activerecord.attributes.appointment.address'),
+                     class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.submit t('.submit'), class: 'btn btn-primary btn-block' %>
+  </div>
+<% end %>

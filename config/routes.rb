@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :appointments
   resources :clients
 
   get :home, controller: :static_pages

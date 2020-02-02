@@ -1,0 +1,8 @@
+pt-BR:
+  appointments:
+    create:
+      success: "Compromisso criado com sucesso"
+    update:
+      success: "Compromisso atualizado com sucesso"
+    destroy:
+      success: "Compromisso excluído com sucesso"

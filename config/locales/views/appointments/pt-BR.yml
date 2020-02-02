@@ -1,0 +1,20 @@
+pt-BR:
+  appointments:
+    edit:
+      header: "Atualizar compromisso"
+      back: "Voltar aos compromissos"
+    new:
+      header: "Novo compromisso"
+      back: "Voltar aos compromissos"
+    form:
+      submit: "Salvar"
+      select_client: "Selecione um cliente"
+    index:
+      header: "Compromissos"
+      new_appointment: "Novo compromisso"
+      client: "Cliente"
+      start_at: "Data e hora de início"
+      end_at: "Data e hora de término"
+      address: "Endereço"
+      actions: "Ações"
+      confirmation_message: "Você tem certeza?"

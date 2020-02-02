@@ -3,6 +3,7 @@ pt-BR:
     navbar:
       app_name: "Aviso Cliente"
       clients: "Clientes"
+      appointments: "Compromissos"
       edit_profile: "Editar perfil"
       sign_out: "Sair"
       sign_in: "Entrar"

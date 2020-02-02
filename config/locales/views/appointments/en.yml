@@ -1,0 +1,20 @@
+en:
+  appointments:
+    edit:
+      header: "Edit appointment"
+      back: "Back to appointments"
+    new:
+      header: "New appointment"
+      back: "Back to appointments"
+    form:
+      submit: "Submit"
+      select_client: "Select a client"
+    index:
+      header: "Appointments"
+      new_appointment: "New appointment"
+      client: "Client"
+      start_at: "Start at"
+      end_at: "End at"
+      address: "Address"
+      actions: "Actions"
+      confirmation_message: "Are you sure?"
