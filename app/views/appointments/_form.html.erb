@@ -6,11 +6,10 @@
                             :id,
                             :first_name,
                             { include_blank: t('.select_client') },
-                            { class: 'custom-select' } %>
+                            { required: true, class: 'custom-select' } %>
   </div>
   <div class="form-group">
     <%= f.text_area :description,
-                    autofocus: true,
                     autocomplete: 'off',
                     placeholder: t('activerecord.attributes.appointment.description'),
                     class: 'form-control',
@@ -18,6 +17,7 @@
   </div>
   <div class="form-group">
     <%= f.text_field :start_at,
+                     required: true,
                      autocomplete: 'off',
                      placeholder: t('activerecord.attributes.appointment.start_at'),
                      class: 'form-control datetimepicker-input',
@@ -32,11 +32,16 @@
   </div>
   <div class="form-group">
     <%= f.text_field :address,
+                     required: true,
                      autocomplete: 'off',
                      placeholder: t('activerecord.attributes.appointment.address'),
                      class: 'form-control' %>
   </div>
+  <%= f.hidden_field :latitude %>
+  <%= f.hidden_field :longitude %>
+  <div id="appointment-map"></div>
   <div class="form-group">
-    <%= f.submit t('.submit'), class: 'btn btn-primary btn-block' %>
+    <%= f.submit t('.submit'), id: 'btn-submit', class: 'btn btn-primary btn-block' %>
   </div>
 <% end %>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_API_KEY'] %>&libraries=places&callback=initializeLocationServices"></script>

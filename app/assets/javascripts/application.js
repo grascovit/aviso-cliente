@@ -18,6 +18,7 @@
 //= require moment
 //= require moment/pt-br
 //= require tempusdominus-bootstrap-4
+//= require appointment_map
 //= require_tree .
 
 $(document).ready(function () {

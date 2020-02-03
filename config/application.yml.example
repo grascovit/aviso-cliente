@@ -3,6 +3,7 @@ AWS_REGION:
 DEFAULT_URL: 'avisocliente.herokuapp.com'
 EMAIL_SENDER: 'contato@avisocliente.com'
 ENABLE_REGISTRATION: 'false'
+GOOGLE_API_KEY:
 MAILGUN_USERNAME:
 MAILGUN_PASSWORD:
 MAILGUN_DOMAIN:
