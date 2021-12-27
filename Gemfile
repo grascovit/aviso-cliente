@@ -7,7 +7,6 @@ ruby '2.7.5'
 
 gem 'bootsnap', '~> 1.9.3', require: false
 gem 'bootstrap', '~> 4.6.1'
-gem 'bootstrap4-datetime-picker-rails', '~> 0.3.1'
 gem 'devise', '~> 4.8.1'
 gem 'dotenv-rails', '~> 2.7.6'
 gem 'font-awesome-sass', '~> 5.15.1'

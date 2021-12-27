@@ -31,3 +31,5 @@ storage/
 
 # Ignore coverage files
 coverage/
+
+.env

@@ -15,15 +15,5 @@
 //= require jquery3
 //= require popper
 //= require bootstrap
-//= require moment
-//= require moment/pt-br
-//= require tempusdominus-bootstrap-4
 //= require appointment_map
 //= require_tree .
-
-$(document).ready(function () {
-  $('.datetimepicker-input').datetimepicker({
-    sideBySide: true,
-    locale: 'pt-br'
-  });
-});
