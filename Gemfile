@@ -3,42 +3,42 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.7.5'
 
-gem 'bootsnap', '~> 1.4.5', require: false
-gem 'bootstrap', '~> 4.4.1'
+gem 'bootsnap', '~> 1.9.3', require: false
+gem 'bootstrap', '~> 4.6.1'
 gem 'bootstrap4-datetime-picker-rails', '~> 0.3.1'
-gem 'devise', '~> 4.7.1'
-gem 'figaro', '~> 1.1.1'
-gem 'font-awesome-sass', '~> 5.12.0'
-gem 'jquery-rails', '~> 4.3.5'
-gem 'pg', '~> 1.2.2'
-gem 'puma', '~> 4.3.5'
-gem 'rails', '~> 5.2.4.1'
+gem 'devise', '~> 4.8.1'
+gem 'dotenv-rails', '~> 2.7.6'
+gem 'font-awesome-sass', '~> 5.15.1'
+gem 'jquery-rails', '~> 4.4.0'
+gem 'pg', '~> 1.2.3'
+gem 'puma', '~> 5.5.2'
+gem 'rails', '~> 6.1.4.4'
 gem 'sassc-rails', '~> 2.1.2'
+gem 'sprockets-rails', '~> 3.4.2'
 gem 'uglifier', '~> 4.2.0'
 
 group :development, :test do
-  gem 'byebug', '~> 11.1.1', platforms: %i[mri mingw x64_mingw]
-  gem 'factory_bot_rails', '~> 5.1.1'
-  gem 'pry', '~> 0.12.2'
-  gem 'rspec-rails', '~> 3.9.0'
-  gem 'rubocop', '~> 0.79.0', require: false
-  gem 'rubocop-rspec', '~> 1.37.1'
+  gem 'factory_bot_rails', '~> 6.2.0'
+  gem 'pry', '~> 0.14.1'
+  gem 'rspec-rails', '~> 5.0.2'
+  gem 'rubocop', '~> 1.24.0', require: false
+  gem 'rubocop-rails', '~> 2.13.0'
+  gem 'rubocop-rspec', '~> 2.7.0'
 end
 
 group :development do
   gem 'letter_opener', '~> 1.7.0'
-  gem 'listen', '~> 3.2.1'
-  gem 'spring', '~> 2.1.0'
-  gem 'spring-watcher-listen', '~> 2.0.1'
+  gem 'listen', '~> 3.7.0'
+  gem 'spring', '~> 4.0.0'
 end
 
 group :test do
-  gem 'faker', '~> 2.10.1'
-  gem 'rails-controller-testing', '~> 1.0.4'
-  gem 'shoulda-matchers', '~> 4.2.0'
-  gem 'simplecov', '~> 0.17.1', require: false
+  gem 'faker', '~> 2.19.0'
+  gem 'rails-controller-testing', '~> 1.0.5'
+  gem 'shoulda-matchers', '~> 5.1.0'
+  gem 'simplecov', '~> 0.21.2', require: false
 end
 
-gem 'tzinfo-data', '~> 1.2019.3', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data', '~> 1.2021.5', platforms: %i[mingw mswin x64_mingw jruby]

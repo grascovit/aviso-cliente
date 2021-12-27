@@ -12,7 +12,8 @@ To get the application running, follow the steps below:
 bundle install
 ```
 
-Run `bundle exec figaro install`, copy the content from `config/application.yml.example` file to `config/application.yml` and fill the required data.
+Create a file named `.env` and paste the contents from the `.env.example` file into it.
+Provide the required environment variables.
 
 After this, execute the following steps:
 ```shell

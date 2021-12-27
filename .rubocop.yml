@@ -1,14 +1,14 @@
-require: rubocop-rspec
-
-Rails:
-  Enabled: true
+require:
+  - rubocop-rails
+  - rubocop-rspec
 
 AllCops:
-  TargetRubyVersion: 2.6.3
+  TargetRubyVersion: 2.7.5
   Exclude:
     - db/**/*
     - bin/**/*
     - vendor/**/*
+  NewCops: enable
 
 Style/Documentation:
   Enabled: false
