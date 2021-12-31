@@ -24,8 +24,10 @@ module AvisoCliente
     config.generators.system_tests = nil
 
     # I18n
-    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.yml').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.yml').to_s]
     config.i18n.available_locales = %i[en pt-BR]
     config.i18n.default_locale = :'pt-BR'
+
+    config.active_job.queue_adapter = :sidekiq
   end
 end
