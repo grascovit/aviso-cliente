@@ -15,7 +15,7 @@ gem 'pg', '~> 1.2.3'
 gem 'puma', '~> 5.5.2'
 gem 'rails', '~> 6.1.4.4'
 gem 'sassc-rails', '~> 2.1.2'
-gem 'sidekiq', '~> 6.3.1'
+gem 'sidekiq', '~> 6.4.0'
 gem 'sprockets-rails', '~> 3.4.2'
 gem 'uglifier', '~> 4.2.0'
 

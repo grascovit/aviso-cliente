@@ -235,7 +235,7 @@ GEM
       tilt
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
-    sidekiq (6.3.1)
+    sidekiq (6.4.0)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -293,7 +293,7 @@ DEPENDENCIES
   rubocop-rspec (~> 2.7.0)
   sassc-rails (~> 2.1.2)
   shoulda-matchers (~> 5.1.0)
-  sidekiq (~> 6.3.1)
+  sidekiq (~> 6.4.0)
   simplecov (~> 0.21.2)
   spring (~> 4.0.0)
   sprockets-rails (~> 3.4.2)
